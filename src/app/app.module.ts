@@ -55,6 +55,8 @@ import { HomeComponent } from './home/home.component';
 import {CommonService} from "./common/common.service";
 import { CodemirrorDirective } from './directive/codemirror.directive';
 import { TestDirective } from './directive/test.directive';
+import { RestDescComponent } from './rest-desc/rest-desc.component';
+import { QuestionContainerComponent } from './question-container/question-container.component';
 @NgModule({
   exports: [
     CdkTableModule,
@@ -107,7 +109,9 @@ export class DemoMaterialModule {}
     EventsComponent,
     HomeComponent,
     CodemirrorDirective,
-    TestDirective
+    TestDirective,RestDescComponent,
+    QuestionContainerComponent
+
   ],
   imports: [
     BrowserModule,

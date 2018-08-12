@@ -1,0 +1,15 @@
+[{
+  "question":"What is this in javascript?",
+  "ans":"Mystic lies here",
+  "exec":false
+},{
+  "question":"What is the output of following code ?",
+  "ans":"vgvfvfg",
+  "exec":true,
+  "code":"var array1 = ['a', 'b', 'c'];\n var array2 = ['d', 'e', 'f']; \n console.log(array1.concat(array2));"
+},{
+  "question":"What is the output of following code ?",
+  "ans":"fcfcff",
+  "exec":true,
+  "code":"function abc(){\nreturn 1;};\nconsole.log(abc());"
+}]
